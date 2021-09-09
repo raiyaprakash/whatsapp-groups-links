@@ -1,0 +1,1 @@
+javascript:for(var cleanlink,x=document.querySelectorAll("a"),myarray=[],i=0;i<x.length;i++)"chat.whatsapp.com"==x[i].hostname&&(cleanlink=x[i].href,myarray.push([cleanlink]));function make_table(){for(var a="<table><tbody>",e=0;e<myarray.length;e++)a+="<tr><td>"+myarray[e][0]+"</td></tr>";window.open("").document.write(a)}make_table();
